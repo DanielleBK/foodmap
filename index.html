@@ -9,14 +9,40 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Home</title>
   </head>
-  <body>
-
+  <body onload = 'loadMap()'>
+    <!-- <div class="inicial bg-info .text-ligth .col-md-12 d-flex justify-content-center align-items-center">
+      <h1 class=" ">FoodMap</h1>
+    </div>
+    <div class="home col-md-12 d-flex d-none">
+      <h1 class=" ">Foi??</h1>
+    </div> -->
+ <div class="mother d-flex">
+    <div class="splash bg-info .col-md-12 d-flex justify-content-center align-items-center">
+      <h1 class=" ">I FoodMap</h1>
+    </div>
+    <div class="home bg-dark">
+      <h1 class=" ">I FoodMap</h1>
+      <div id="map">
+      </div>
+        <select class="form-control form-control-sm" >
+            <option>Escolha seus restaurantes</option>
+            <option>Vegana</option>
+            <option>Fast Food</option>
+            <option>arabe</option>
+            <option>Italiana</option>
+            <option>Japonesa</option>
+        </select>
+       <div class="vitrine bg-white .col-md-12 .col-sm-12">
+         <link rel="stylesheet" href="#">
+       </div>
+       <p>@2018 Organizações Tabajara </p>
+    </div>
 
 
     <!-- O script comentado é o do Google maps -->
-    <!-- <script async defer  src="https://maps.googleapis.com/maps/api/js?key=<sua-chave-da-API>&callback=<sua-funcao-de-inicio>">
-    </script> -->  
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADxPoVE0sf-S-Fw1sl9RB1DEdzjJ1ZKDE&callback=initMap">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"crossorigin="anonymous"></script>
     <script src="js/data.js"></script>
